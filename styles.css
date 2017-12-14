@@ -1,0 +1,135 @@
+body{
+	background-color:#F4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:aqua;
+	color:#fffff;
+}
+
+#navbar{
+
+	background-color: #333;
+	color:#ffffff;
+
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+
+}
+
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color:#ffffff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+a:link {color: rgb(0,0,153)}
+a:visited {color: rgb(153,0,153)}
+a:hover {color: rgb(0,96,255)}
+a:active {color: rgb(255,0,102)}
+
+#showcase{
+	background-image: url('../images/showcase.jpeg');
+	background-position: center right;
+	min-height:300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#ffffff;
+	font-size: 100px;
+	line-height: 1.6em;
+	padding-top: 30px;
+
+}
+
+#main{
+	<img src="../images/naa.jpeg" alt="National Aviation Academy">
+	float:left;
+	width: 70%;
+	padding: 0 30px;
+	text-align: center;
+	box-sizing: border-box;
+
+}
+
+#celeberation{
+	float:left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+
+}
+
+#crazy{
+	float:left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+
+}
+
+#family{
+	float:left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	
+
+}
+
+#moments{
+	float:left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	
+
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #333;
+	color: #ffffff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #333333;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
